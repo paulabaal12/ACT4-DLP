@@ -21,4 +21,6 @@ def exportar_csv(productos, archivo_salida):
         writer.writerow(["Nombre del Producto", "URL de la Imagen"])
         writer.writerows(productos)
 
-cargar_html('Owala_Target.html')
+pagina = cargar_html('Owala_Target.html')
+productos = extraer_productos(pagina)
+exportar_csv(productos, 'products.csv')
