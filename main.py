@@ -8,6 +8,7 @@ def cargar_html(archivo):
     
 # Buscar productos y URLs de imágenes
 def extraer_productos(html):
+    # Expresiones regulares para extraer nombres e imágenes
     regex_nombre = r'<span[^>]*class="[^"]*vtex-product-summary-2-x-brandName[^"]*"[^>]*>(.*?)<!--'
     regex_imagen = r'<img[^>]*src="([^"]+)"[^>]*class="[^"]*vtex-product-summary-2-x-image[^"]*"'
     nombres = re.findall(regex_nombre, html)
