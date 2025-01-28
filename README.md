@@ -42,6 +42,9 @@ La función ```extraer_productos(html)``` utiliza expresiones regulares (regex) 
 2. Ejecuta el script ```main.py``` para procesar los datos.
 3. Los resultados estarán disponibles en el archivo ```productos.csv```.
 
+## Video de ejecución
+En este video explicamos como funciona el codigo y su ejecución.
+[Enclace a video](https://youtu.be/M5GgWscYSv4).
 
 ## Desarrollado por:
 - **[Mónica Salvatierra - 22249](https://github.com/alee2602)**
