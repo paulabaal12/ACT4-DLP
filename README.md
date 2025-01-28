@@ -44,7 +44,7 @@ La función ```extraer_productos(html)``` utiliza expresiones regulares (regex) 
 
 ## Video de ejecución
 En este video explicamos como funciona el codigo y su ejecución.
-[Enclace a video](https://youtu.be/M5GgWscYSv4).
+[Enlace a video](https://youtu.be/M5GgWscYSv4).
 
 ## Desarrollado por:
 - **[Mónica Salvatierra - 22249](https://github.com/alee2602)**
